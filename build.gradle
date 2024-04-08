@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //testImplementation platform('org.junit:junit-bom:5.10.0')
+    //testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.4.0'
+
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation group: 'org.testng', name: 'testng', version: '7.9.0'
+
+    // https://mvnrepository.com/artifact/commons-configuration/commons-configuration
+    implementation group: 'commons-configuration', name: 'commons-configuration', version: '1.10'
+
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.17.0'
+
+    // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+    implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
+
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.26.0'
+}
+
+test {
+    useTestNG() {
+        suites "./src/test/resources/suite.xml"
+    }
+}
