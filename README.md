@@ -29,13 +29,13 @@
 
 ## How to run this project
 - Clone the project
-- Execute the following command on the project directory : `gradle clean test`
+- Execute the following command on the project directory  
+`gradle clean test`
 
 ## Generate Allure Report
-- Execute the following commands (after finishing the project run)
-
-  1. `allure generate allure-results --clean`
-  2. `allure serve allure-results --clean`
+- Execute the following commands (after finishing the project run)  
+`allure generate allure-results --clean`  
+`allure serve allure-results --clean`
 
 ## Allure Reports
 ![1 overview](https://github.com/touhid-96/REST-Assured-Project-Dmoney-API-Testing/assets/29010371/f92f1ae5-42fb-4dd0-b652-894f6a6c2649)
