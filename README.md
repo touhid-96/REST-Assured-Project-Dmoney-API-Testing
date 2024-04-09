@@ -1,4 +1,4 @@
-# REST-Assured-Project-Dmoney-API-Testing
+# REST Assured Project Dmoney API Testing
 
 ## Technology and Tool Used
 - REST Assured
