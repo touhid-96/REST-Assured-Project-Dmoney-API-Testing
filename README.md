@@ -1,5 +1,15 @@
 # REST Assured Project Dmoney API Testing
 
+## Scenario
+- Do Login by admin
+- Create 2 new customers and an agent
+- Give 2000 tk from System account to the newly created agent
+- Deposit 1500 tk to a customer from the agent account
+- Withdraw 500 tk by the customer to the agent
+- Send money 500 tk to another customer
+- Payment 100 tk to a merchant (01712121212) by the recipient customer
+- Check balance of the recipient customer
+
 ## Technology and Tool Used
 - REST Assured
 - Commons Configuration
@@ -11,16 +21,6 @@
 
 ## Collection
 - https://documenter.getpostman.com/view/32159205/2sA35MzeiK
-
-## Scenario
-- Do Login by admin
-- Create 2 new customers and an agent
-- Give 2000 tk from System account to the newly created agent
-- Deposit 1500 tk to a customer from the agent account
-- Withdraw 500 tk by the customer to the agent
-- Send money 500 tk to another customer
-- Payment 100 tk to a merchant (01712121212) by the recipient customer
-- Check balance of the recipient customer
 
 ## Prerequisite
 - JDK 11 or higher
