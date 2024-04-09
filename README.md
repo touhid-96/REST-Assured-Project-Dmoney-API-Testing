@@ -47,3 +47,6 @@
 ![4 behaviors](https://github.com/touhid-96/REST-Assured-Project-Dmoney-API-Testing/assets/29010371/1188fbe0-9bcb-4e72-8c15-e95fcea87412)
 
 ![5 packages](https://github.com/touhid-96/REST-Assured-Project-Dmoney-API-Testing/assets/29010371/6acd6309-9e45-4e81-9502-5169441dfa6d)
+
+## Gradle Report
+![gradle](https://github.com/touhid-96/REST-Assured-Project-Dmoney-API-Testing/assets/29010371/d3fbd2a8-90d7-4955-99b6-bf6457d32375)
